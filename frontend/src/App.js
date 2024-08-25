@@ -16,7 +16,7 @@ function App() {
       const parsedInput = JSON.parse(jsonInput);
       console.log("Parsed Input:", parsedInput);  // Debugging: check what is being parsed
   
-      const res = await fetch('http://127.0.0.1:5000/bfhl', {
+      const res = await fetch('https://bajaj-finserv-21-bbs-0244.vercel.app/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
