@@ -31,5 +31,9 @@ This project is a simple web application that allows users to submit JSON data a
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/your-username/your-repo.git](https://github.com/KaveeshTata/Bajaj_finserv_21BBS0244.git
+cd backend
+python app.py
+cd frontend
+npm install\
+npm start
