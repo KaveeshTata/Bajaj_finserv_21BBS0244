@@ -16,7 +16,7 @@ function App() {
       const parsedInput = JSON.parse(jsonInput);
       console.log("Parsed Input:", parsedInput);  // Debugging: check what is being parsed
   
-      const res = await fetch('https://backend-linked.onrender.com/bfhl', {
+      const res = await fetch('https://bajaj-backend-01.onrender.com/bfhl', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
